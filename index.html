@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy_Inc Test</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="main-wrapper">
+      <section class="diagram">
+        <div class="diagram__text">
+          <span class="diagram__percent"
+            >72.<b class="diagram__percent diagram__percent--small">7</b
+            ><b
+              class="diagram__percent diagram__percent--small diagram__percent--colored"
+              >%</b
+            ></span
+          >
+          <h1 class="diagram__title">Лояльность</h1>
+          <span class="diagram__annotation">ниже среднего</span>
+          <p class="diagram__description">
+            по отрасли: FMCG <br />
+            значений слева от медианы 52.0% - 83.1%
+          </p>
+          <span class="diagram__estimation">3.1</span>
+        </div>
+        <div class="diagram__pic">
+          <svg
+            class="diagram__circle"
+            width="500"
+            height="500"
+            viewBox="0 0 50 50"
+          >
+            <circle
+              class="diagram__unit"
+              r="15.9"
+              cx="50%"
+              cy="50%"
+              stroke-linecap="round"
+            ></circle>
+            <circle
+              class="diagram__unit"
+              r="15.9"
+              cx="50%"
+              cy="50%"
+              stroke-linecap="round"
+            ></circle>
+            <circle
+              class="diagram__unit"
+              r="15.9"
+              cx="50%"
+              cy="50%"
+              stroke-linecap="round"
+            ></circle>
+          </svg>
+        </div>
+      </section>
+      <section class="rating">
+        <ul class="rating__list">
+          <li class="rating__item item">
+            <h2 class="item__title">Промоутеры</h2>
+            <div class="item__scores scores">
+              <span class="scores scores--percent">32.0%</span>
+              <span class="scores scores--number">81</span>
+            </div>
+            <div class="item__scale item__scale--green"><span class="item__colored"></span><span class="item__annotation">+1.2%</span></div>
+          </li>
+          <li class="rating__item item">
+            <h2 class="item__title">Скептики</h2>
+            <div class="item__scores scores">
+              <span class="scores scores--percent">39.1%</span>
+              <span class="scores scores--number">8</span>
+            </div>
+            <div class="item__scale item__scale--yellow"><span class="item__colored"></span><span class="item__annotation">+4.8%</span></div>
+          </li>
+          <li class="rating__item item">
+            <h2 class="item__title">Критики</h2>
+            <div class="item__scores scores">
+              <span class="scores scores--percent">79.8%</span>
+              <span class="scores scores--number">7</span>
+            </div>
+            <div class="item__scale item__scale--red"><span class="item__colored"></span><span class="item__annotation">-9.7%</span></div>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
